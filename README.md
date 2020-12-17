@@ -1,5 +1,5 @@
 # WAND-Top-k-Retrieval-Algorithm
-Implementation of the WAND algorithm in python, used top-k retrieval in web search
+This is a python implementation of the WAND algorithm presented in the [Exploring the Magic of WAND paper](http://culpepper.io/publications/pcm13-adcs.pdf). The algorithm is used top-k retrieval in web search
 ## Usage: 
 For testing
 
