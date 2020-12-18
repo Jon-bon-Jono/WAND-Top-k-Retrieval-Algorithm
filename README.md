@@ -16,7 +16,7 @@ The inverted index model `InvertedIndex(documents).get_inverted_index()` accepts
 No preprocessing methods are used, only `split` to get terms.
 
 The normalized tf-idf is calculated in `Inv_index.py` from the formula:
-
+![](https://raw.githubusercontent.com/Jon-bon-Jono/WAND-Top-k-Retrieval-Algorithm/main/tf_idf_formula.PNG)
 
 ### Output:
 Outputs a list of the form (score, doci_id) where score corresponds to the sum of tf-idf scores among all the term based on the intersection of the query and document. Also outputs full_evaluation_count, the number of documents fully evaluated in the WAND algorithm
